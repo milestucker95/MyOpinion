@@ -1,0 +1,36 @@
+.commentbox {
+	width: 600px;
+	height:100px;
+}
+
+.btn-lg{
+		margin-bottom: 30px;
+}
+.generaltoppicks {
+	font-size: 17px;
+	font-family: Arial;
+	background: white;
+	line-height: 1.5em;
+	/*margin-top:40px;*/
+	margin-left:20px;
+	margin-bottom: 40px;
+}
+
+h2{
+	margin-top:20px;
+	margin-left: 20px;
+	padding-top:20px;
+	padding-bottom:20px;
+
+}
+
+
+
+
+#contact-bottom-bar{
+	color:black;
+}
+
+#back-to-top{
+	color:black;
+}
