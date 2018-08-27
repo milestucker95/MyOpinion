@@ -1,9 +1,5 @@
 // JavaScript source code
 
-console.log(document.title);
-
-
-
 //The Office Button
 $('#theofficebutton').click(function () {
     $('#theofficecomment').toggle();
@@ -32,6 +28,7 @@ $('#orangebutton').click(function () {
 
 });
 
+//Arrays for both the comment boxes and their corresponding button
 var boxArray = ['theofficecomment', 'strangerthingscomment', 'narcoscomment', 'orangecomment'];
 var buttons = ['theofficebutton', 'strangerthingsbutton', 'narcosbutton', 'orangebutton'];
 
@@ -50,11 +47,52 @@ window.addEventListener('mouseup', function (event) {
     }
 });
 
+
+//For when comment button opens the comment box
+function officeempty() {
+    var x;
+    x = document.getElementById("theofficecomment").value;
+        if (x == "") {
+            //alert("Enter a Valid Roll Number");
+            return false;
+        };
+   
+}
+
+function narcosempty() {
+    var x;
+    x = document.getElementById("narcoscomment").value;
+    if (x == "") {
+        //alert("Enter a Valid Roll Number");
+        return false;
+    };
+
+}
+
+function strangerthingsempty() {
+    var x;
+    x = document.getElementById("strangerthingscomment").value;
+    if (x == "") {
+        //alert("Enter a Valid Roll Number");
+        return false;
+    };
+
+}
+
+function orangeempty() {
+    var x;
+    x = document.getElementById("orangecomment").value;
+    if (x == "") {
+        //alert("Enter a Valid Roll Number");
+        return false;
+    };
+
+}
+
+//Playing around with the DOM
 var headerTitle = document.getElementById('article-title');
 headerTitle.style.borderBottom = 'solid 10px white';
 //headerTitle.innerHTML = '<h5>New Title</h5>';
 
 var stuff = document.getElementsByClassName('generaltoppicks');
-// console.log(stuff);
-// console.log(stuff[i]);
-// stuff[1].textContent = 'Hello 2';
+

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!-- {% extends "base.html" %} -->
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
@@ -58,10 +58,12 @@ $.widget.bridge('uibutton', $.ui.button);
             ethically in the workplace. What's special about this show is that it never gets old. <br />It possesses die-hard fans, including myself, who have watched the show over 10 times
         </p>
         <br />
-        <button type="button" id="theofficebutton" class="btn btn-primary btn-lg">Comment</button>
+        <form action="#" method="post" onclick="return officeempty()">
+            <input type="submit" id="theofficebutton" class="btn btn-primary btn-lg" value="Comment">
 
-        <input id="theofficecomment" type="text" class="commentbox" style="display:none;" placeholder="Write here..." />
+            <input id="theofficecomment" type="text" class="commentbox" style="display:none;" placeholder="Write here..." />
 
+        </form>
         <h4 id="strangerthings">2. Stranger Things</h4><br />
         <img id="strangerthingsimg" src="imgs/strangerthings.png" /><br />
         <p id="strangerthings_description">
@@ -69,9 +71,11 @@ $.widget.bridge('uibutton', $.ui.button);
             few people in the town are aware of these monsters' existance.
         </p>
         <br />
-        <button type="button" id="strangerthingsbutton" class="btn btn-primary btn-lg">Comment</button>
-        <input id="strangerthingscomment" type="text" class="commentbox" style="display:none;" placeholder="Write here..." />
+        <form action="#" method="post" onclick="return strangerthingsempty()">
 
+            <input type="submit" id="strangerthingsbutton" class="btn btn-primary btn-lg" value="Comment">
+            <input id="strangerthingscomment" type="text" class="commentbox" style="display:none;" placeholder="Write here..." />
+        </form>
         <h4 id="Narcos">3. Narcos</h4><br />
         <img id="narcosimg" src="imgs/narcos.jpg" /><br />
         <p id="narcos_description">
@@ -79,8 +83,11 @@ $.widget.bridge('uibutton', $.ui.button);
             his reign over Columbia.
         </p>
         <br />
-        <button type="button" id="narcosbutton" class="btn btn-primary btn-lg">Comment</button>
-        <input id="narcoscomment" type="text" class="commentbox" style="display:none;" placeholder="Write here..." />
+        <form action="#" method="post" onclick="return narcosempty()">
+
+            <input type="submit" id="narcosbutton" class="btn btn-primary btn-lg" value="Comment">
+            <input id="narcoscomment" type="text" class="commentbox" style="display:none;" placeholder="Write here..." />
+        </form>
 
         <h4 id="orangeisblack">3. Orange is the New Black</h4><br />
         <img id="orangeimg" src="imgs/orange.png" /><br />
@@ -89,8 +96,11 @@ $.widget.bridge('uibutton', $.ui.button);
             <br /> up to no good, yet they eventually come together as a family while wreaking havoc within the prison.
         </p>
         <br />
-        <button type="button" id="orangebutton" class="btn btn-primary btn-lg">Comment</button>
-        <input id="orangecomment" type="text" class="commentbox" style="display:none;" placeholder="Write here..." />
+        <form action="#" method="post" onclick="return orangeempty()">
+
+            <input type="submit" id="orangebutton" class="btn btn-primary btn-lg" value="Comment">
+            <input id="orangecomment" type="text" class="commentbox" style="display:none;" placeholder="Write here..." />
+        </form>
 
     </div>
 
