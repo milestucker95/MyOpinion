@@ -56,7 +56,7 @@ function officeempty() {
             //alert("Enter a Valid Roll Number");
             return false;
         };
-   
+
 }
 
 function narcosempty() {
@@ -89,10 +89,16 @@ function orangeempty() {
 
 }
 
+$('#subscribe').click(function () {
+    $('#subscribe-email').toggle();
+    // $('#strangerthingsbutton').html('Submit');
+
+});
+
+
 //Playing around with the DOM
 var headerTitle = document.getElementById('article-title');
 headerTitle.style.borderBottom = 'solid 10px white';
 //headerTitle.innerHTML = '<h5>New Title</h5>';
 
 var stuff = document.getElementsByClassName('generaltoppicks');
-
