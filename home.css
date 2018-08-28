@@ -24,6 +24,31 @@ h2{
 
 }
 
+<<<<<<< HEAD
+=======
+input.commentbox{
+line-height: 200px;
+}
+
+.card-text{
+	margin-bottom: 30px;
+}
+.to-top{
+	float: left;
+	margin-left: 500px;
+}
+
+.subscribe{
+	float:right;
+	margin-right: 500px;
+	/* position: fixed; */
+}
+
+.subscribe-box{
+	/* position: fixed; */
+
+}
+>>>>>>> 5f7001db17273ac63f99b3fd80985175e20dad88
 /*.center {
     width: 25%;
     height: 25%;

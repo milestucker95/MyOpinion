@@ -56,7 +56,11 @@ function officeempty() {
             //alert("Enter a Valid Roll Number");
             return false;
         };
+<<<<<<< HEAD
    
+=======
+
+>>>>>>> 5f7001db17273ac63f99b3fd80985175e20dad88
 }
 
 function narcosempty() {
@@ -89,10 +93,23 @@ function orangeempty() {
 
 }
 
+<<<<<<< HEAD
+=======
+$('#subscribe').click(function () {
+    $('#subscribe-email').toggle();
+    // $('#strangerthingsbutton').html('Submit');
+
+});
+
+
+>>>>>>> 5f7001db17273ac63f99b3fd80985175e20dad88
 //Playing around with the DOM
 var headerTitle = document.getElementById('article-title');
 headerTitle.style.borderBottom = 'solid 10px white';
 //headerTitle.innerHTML = '<h5>New Title</h5>';
 
 var stuff = document.getElementsByClassName('generaltoppicks');
+<<<<<<< HEAD
 
+=======
+>>>>>>> 5f7001db17273ac63f99b3fd80985175e20dad88
